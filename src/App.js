@@ -2,6 +2,15 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+//Firebase Firestore Playground Files
+// import './playground/firebase_write'
+// import './playground/firebase_remove'
+// import './playground/firebase_update'
+// import './playground/firebase_read'
+// import './playground/firebase_queries'
+// import './playground/firebase_subscribe'
+
+
 class App extends Component {
   render() {
     return (
