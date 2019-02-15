@@ -1,9 +1,9 @@
 import db from '../firebase/firebase'
 
-//Here, we use the 'ref()' method which means 'reference' and references a specific part in your database
-//Leaving it blank just allows us to insert our data at the root level of our database
-//The 'set()' method allows us to add data to our database
+//Here, we are using the 'collection' method to identify which collection we want to target
+//Then, we use the 'add' method to add any type of data we want
 //This can be any type of data such as strings, booleans, numbers, objects, arrays, etc.
+//If the 'collection' doesn't exist, it will create it then add our data
 // db.collection('users').add({
 //     name: 'Chris Rasch',
 //     age: 36,
